@@ -1,1 +1,49 @@
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
 
+.navbar_element {
+  float: left;
+}
+
+.navbar_element a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navbar_element a:hover {
+  background-color: #111;
+}
+
+.impressum_bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.impressum_bar_element {
+  float: right;
+}
+
+.impressum_bar_element a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.impressum_bar_element a:hover {
+  background-color: #111;
+}
