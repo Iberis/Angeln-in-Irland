@@ -53,8 +53,30 @@
 }
 
 /* Text Formating */
-.section img {
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
+.section_left img {
+  float:left;
+}
+
+.section_left p {
+  vertical-align:middle;
+}
+
+.section_left::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.section_right img {
+  float:right;
+}
+
+.section_left p {
+  vertical-align:middle;
+}
+
+.section_right::after {
+  content: "";
+  display: block;
+  clear: both;
 }
