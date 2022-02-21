@@ -1,3 +1,4 @@
+/* Navigation bar */
 .navbar {
   list-style-type: none;
   margin: 0;
@@ -18,17 +19,20 @@
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 .navbar_element a:hover {
   background-color: #111;
 }
 
+/* Footer */
 .impressum_bar {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  position:absolute;
+  bottom:0;
+  width:100%;
 }
 
 .impressum_bar_element {
@@ -43,7 +47,13 @@
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 .impressum_bar_element a:hover {
   background-color: #111;
+}
+
+/* Text Formating */
+.section img {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
 }
