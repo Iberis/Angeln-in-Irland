@@ -1,4 +1,3 @@
-/* Navigation bar */
 .navbar {
   list-style-type: none;
   margin: 0;
@@ -8,7 +7,7 @@
 }
 
 .navbar_element {
-  float: left;
+  float: left;	
 }
 
 .navbar_element a {
@@ -19,21 +18,21 @@
   text-decoration: none;
 }
 
+/* Change the link color to #111 (black) on hover */
 .navbar_element a:hover {
   background-color: #111;
 }
 
-/* Footer */
 .impressum_bar {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  position:relative;
-  bottom:0;
-  width:100%;
-  min-height:100%
+  heigt : 50px;
+  position : absolute;
+  bottom : 0;
+  width : 100%
 }
 
 .impressum_bar_element {
@@ -48,35 +47,7 @@
   text-decoration: none;
 }
 
+/* Change the link color to #111 (black) on hover */
 .impressum_bar_element a:hover {
   background-color: #111;
-}
-
-/* Text Formating */
-.section_left img {
-  float:left;
-}
-
-.section_left p {
-  vertical-align:middle;
-}
-
-.section_left::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
-.section_right img {
-  float:right;
-}
-
-.section_left p {
-  vertical-align:middle;
-}
-
-.section_right::after {
-  content: "";
-  display: block;
-  clear: both;
 }
