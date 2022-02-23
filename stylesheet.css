@@ -1,3 +1,4 @@
+/* Navigation bar */
 .navbar {
   list-style-type: none;
   margin: 0;
@@ -18,11 +19,11 @@
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 .navbar_element a:hover {
   background-color: #111;
 }
 
+/*Header image */
 header img {
   width: 100vw;
 }
@@ -53,7 +54,6 @@ header img {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 .impressum_bar_element a:hover {
   background-color: #111;
 }
