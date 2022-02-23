@@ -32,12 +32,17 @@ main {
 }
 
 .column {
-  text-align : center-block;
-  font-size : 20px;
-  width : 29.5%;
-  height : 100vh;
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+ 
+  height : 100%;
   float : left;
-  border : 1px solid darkblue;
-  margin : 10px;
-  padding : 20px;
+}
+
+.column > div{
+	margin : 10px;
+	border: 1px solid darkblue;
+	padding:1em;
+	text-align : center-block;
+    font-size : 20px;
 }
