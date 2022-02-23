@@ -35,7 +35,7 @@ header img {
   overflow: hidden;
   background-color: #333;
   heigt : 50px;
-  position : absolute;
+  position : relative;
   bottom : 0;
   width : 100%
 }
