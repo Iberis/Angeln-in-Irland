@@ -23,6 +23,10 @@
   background-color: #111;
 }
 
+header img {
+  width: 100vw;
+}
+
 /* Footer */
 .impressum_bar {
   list-style-type: none;
