@@ -7,7 +7,7 @@
   height: 35px;
   overflow: hidden;
   position: relative;
-  background: "images/star.png";
+  background: url("./images/star.png");
   background-size: contain;
 }
 
@@ -19,7 +19,7 @@
   height: 100%;
   width: 20%;
   z-index: 1;
-  background: "images/star.png";
+  background: url("./images/star.png");
   background-size: contain;
 }
 
