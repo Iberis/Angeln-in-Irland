@@ -30,6 +30,6 @@
    cursor: pointer;
 }
 
-input[type="radio"]:checked+label {
+.rating input[type="radio"]:checked+label ~ label {
   color: orange
 }
