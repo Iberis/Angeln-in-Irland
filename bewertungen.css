@@ -22,6 +22,8 @@
 .rating label:hover ~ label,
 .rating input:focus ~ label,
 .rating label:hover,
+.rating label::checked, 
+.rating label::checked ~ label, 
 .rating a:hover,
 .rating a:hover ~ a,
 .rating a:focus,
