@@ -2,7 +2,7 @@
 .section {
   display: flex;
   align-items: center;
-  padding-left: 50px;
+  padding: 80px;
 }
 
 .section img {
