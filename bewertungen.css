@@ -25,7 +25,7 @@
 .rating a:hover,
 .rating a:hover ~ a,
 .rating a:focus,
-.rating a:focus ~ a		{
+.rating a:focus ~ a {
    color: orange;
    cursor: pointer;
 }
