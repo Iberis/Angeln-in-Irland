@@ -22,12 +22,14 @@
 .rating label:hover ~ label,
 .rating input:focus ~ label,
 .rating label:hover,
-.rating label:checked, 
-.rating label:checked ~ label, 
 .rating a:hover,
 .rating a:hover ~ a,
 .rating a:focus,
 .rating a:focus ~ a {
    color: orange;
    cursor: pointer;
+}
+
+input[type="radio"]:checked+label {
+  color: orange
 }
