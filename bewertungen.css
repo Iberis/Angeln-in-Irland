@@ -5,12 +5,12 @@
   overflow:hidden;
 }
 .rating input {
-  float: left;
+  float: right;
   opacity: 0;
   position: absolute;
 }
 .rating a, .rating label {
-   float:left;
+   float: right;
    color: #aaa;
    text-decoration: none;
    -webkit-transition: color .4s;
