@@ -23,3 +23,16 @@
 	text-align : center-block;
     font-size : 20px;
 }
+
+.Anmeldung {
+	border: 1px solid blue;
+	padding-top:1em;
+	padding-left:1em;
+	padding-bottom:1em;
+	background-color: skyblue;
+}
+	
+
+#AGB_Datenschutz {
+	font-size: 15px;
+}
