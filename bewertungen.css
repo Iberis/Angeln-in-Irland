@@ -30,3 +30,7 @@
 .rating input[type="radio"]:checked+label ~ label {
   color: orange
 }
+
+.comment_rating {
+  color: orange
+}
