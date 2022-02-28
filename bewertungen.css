@@ -28,9 +28,13 @@
 
 .rating input[type="radio"]:checked+label,
 .rating input[type="radio"]:checked+label ~ label {
-  color: orange
+  color: orange;
+}
+
+.comment {
+  padding-right 50%;
 }
 
 .comment_rating {
-  color: orange
+  color: orange;
 }
