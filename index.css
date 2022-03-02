@@ -2,10 +2,10 @@
 .section {
   display: flex;
   align-items: center;
-  padding: 80px;
 }
 
 .section img {
   width: 300px;
   height: auto;
+  padding: 80px
 }
