@@ -9,3 +9,11 @@
   height: auto;
   padding: 30px
 }
+
+.section_left {
+  padding-left: 400px;
+}
+
+.section_right {
+  padding-right: 400px;
+}
