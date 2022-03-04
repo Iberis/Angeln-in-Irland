@@ -75,9 +75,9 @@ main {
 
 
 .Anmeldung {
-	grid-rows-start: 2;
-	grid-rows-end: 4;
-	grid-rows: 3;
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row: 3;
 	
 	align-items: center;
 	justify-self: center;
