@@ -7,7 +7,6 @@ body {
 .section {
   display: flex;
   align-items: center;
-  background-color: ;
   border: 1px solid cyan;
   border-radius: 2em;
   overflow: hidden;
