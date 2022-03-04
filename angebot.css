@@ -14,6 +14,19 @@ main {
 		align-items: stretch;
 }
 
+.werbetext {
+	grid-rows: 1;
+	align-items: center;
+	align-self: center;
+	justify-self: center;
+	
+	font-size: 25px;
+	border: 1px solid blue;
+	border-radius: 2em;
+	padding: 1em;
+	background-color: skyblue;
+	opacity: 85%;
+}
 
 
 #col1 {
