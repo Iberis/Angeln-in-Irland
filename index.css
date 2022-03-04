@@ -10,7 +10,7 @@ body {
   border: 1px solid cyan;
   border-radius: 2em;
   overflow: hidden;
-  padding: 2em;
+  margin: 2em;
   background: white;
 }
 
