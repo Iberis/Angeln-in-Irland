@@ -1,38 +1,134 @@
+
 #col1 {
   background-color: lightblue;
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
 #col2 {
   background-color: lightgray;
+  grid-column-start: 2;
+  grid-column-end: 3;
 }
 #col3 {
   background-color: lightblue;
+  grid-column-start: 3;
+  grid-column-end: 4;
 }
 
+
 .column {
+	grid-column: 1, 4;
 	display:grid;
-	grid-template-columns: 1fr 1fr 1fr;
- 
-  height : 100%;
-  float : left;
+	grid-template-column: 1fr 1fr 1fr;
+	
+	grid-gap: 20px;
+	height : 100%;
+	float : left;
 }
 
 .column > div{
-	margin : 10px;
+	grid-rows-start:1;
+	grid-rows-end:3;
+	
+	alling-self: stretch;
 	border: 1px solid darkblue;
+	border-radius: 2em;
 	padding:1em;
+	
 	text-align : center-block;
     font-size : 20px;
+	
+	opacity: 85%;
 }
+
+
+
 
 .Anmeldung {
-	border: 1px solid blue;
-	padding-top:1em;
-	padding-left:1em;
-	padding-bottom:1em;
-	background-color: skyblue;
-}
+	grid-rows-start: 2;
+	grid-rows-end: 4;
+	grid-columns: 2;
 	
+	align-items: center;
+	justify-self: center;
+	
+	font-size: 25px;
+	border: 1px solid blue;
+	border-radius: 2em;
+	padding: 1em;
+	background-color: skyblue;
+	
+	opacity: 100%;	
+	line-height: 200%;
+}
 
+
+.Vor-Nachname > input {
+	height: 2em;
+}
+
+.Nachname {
+	padding-left: 1em;
+}
+
+
+.E-mail {
+		padding-left: 5em;
+}
+
+#E-mail {
+	height: 2em;
+	width: 15em;
+}
+
+#Reisende {
+	height: 2em;
+}
+
+.Reise_Zeitrau > input {
+	height: 2em;
+}	
+
+.Ende {
+	padding-left: 1em;
+}
+
+	
+.radio_Angebotwahl {
+	padding-left: 3em;
+}
+
+.radio_Angebotwahl > input {
+	padding-left: 1em;
+}
+
+
+	
 #AGB_Datenschutz {
 	font-size: 15px;
+	line-height: 100%;
+}
+
+
+
+.buttons {
+	
+	height: 2em;
+	padding; 1em;
+}
+
+main {
+		display:grid;
+		grid-template-column: repeat (5, 1fr);
+		grid-template-row: 1fr 1fr;
+		grid-gap: 10px;
+		justify-items: stretch;
+		align-items: stretch;
+}
+
+body {
+	background: url("images/Background_Info.png");
+	background-size: cover;
+	display: grid;
+	grid-template-columns: 1fr;
 }
