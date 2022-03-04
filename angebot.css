@@ -1,3 +1,19 @@
+body {
+	background: url("images/Background_Info.png");
+	background-size: cover;
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+main {
+		display:grid;
+		grid-template-column: repeat (5, 1fr);
+		grid-template-row: 1fr 1fr;
+		grid-gap: 10px;
+		justify-items: stretch;
+		align-items: stretch;
+}
+
 
 
 #col1 {
@@ -116,20 +132,4 @@
 	
 	height: 2em;
 	padding; 1em;
-}
-
-main {
-		display:grid;
-		grid-template-column: repeat (5, 1fr);
-		grid-template-row: 1fr 1fr;
-		grid-gap: 10px;
-		justify-items: stretch;
-		align-items: stretch;
-}
-
-body {
-	background: url("images/Background_Info.png");
-	background-size: cover;
-	display: grid;
-	grid-template-columns: 1fr;
 }
