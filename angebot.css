@@ -8,7 +8,7 @@ body {
 main {
 		display:grid;
 		grid-template-column: repeat (5, 1fr);
-		grid-template-row: 1fr 1fr;
+		grid-template-row: 1fr 1fr 1fr;
 		grid-gap: 10px;
 		justify-items: stretch;
 		align-items: stretch;
