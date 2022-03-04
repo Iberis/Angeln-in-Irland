@@ -1,7 +1,14 @@
+body {
+ background: url("./images/platzhalter.png");
+ background-size: cover;
+}
+
 /* Text Formating */
-.section {
+.section p {
   display: flex;
   align-items: center;
+  background-color: #34ebde;
+  border: 2px blue;
 }
 
 .section img {
