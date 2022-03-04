@@ -4,11 +4,13 @@ body {
 }
 
 /* Text Formating */
-.section p {
+.section {
   display: flex;
   align-items: center;
-  background-color: #34ebde;
-  border: 2px blue;
+  background-color: light blue;
+  border: 5px blue;
+  border-radius: 10px
+  overflow: hidden;
 }
 
 .section img {
