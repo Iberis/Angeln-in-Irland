@@ -48,6 +48,7 @@ main {
 	grid-template-rows: repeat(3, 1fr);
 	background: 
 		url("images/Fluss.png");
+	background-size: cover;
 	background-height: auto;
 	backgound-width: 100vw;
 	place-items: center;
