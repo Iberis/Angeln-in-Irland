@@ -7,10 +7,11 @@ body {
 
 
 main {
-	position: relative;
-	margin: 1em 4em;
+	justify-self: center;
+	margin: 1em 10em;
 	padding: 2em;
 	opacity: 85%;
+	
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr; 
 	grid-template-rows: repeat(9, 1fr);
