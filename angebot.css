@@ -6,7 +6,6 @@ body {
 }
 
 main {
-		height: 100vh;
 		display:grid;
 		grid-template-columns: repeat (5, 1fr);
 		grid-template-rows: 1fr 1fr 1fr;
@@ -84,11 +83,11 @@ main {
 	font-size: 25px;
 	border: 1px solid blue;
 	border-radius: 2em;
-	padding: 1em;
+	padding: 2em;
 	background-color: skyblue;
 	
 	opacity: 100%;	
-	line-height: 200%;
+	line-height: 250%;
 }
 
 
@@ -102,7 +101,7 @@ main {
 
 
 .E-mail {
-		padding-left: 5em;
+	padding-left: 5em;
 }
 
 #E-mail {
