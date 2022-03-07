@@ -16,6 +16,9 @@ main {
 
 .werbetext {
 	grid-rows: 1;
+	grid-columns-start: 1;
+	grid-columns-end: 6;
+	
 	align-items: center;
 	align-self: center;
 	justify-self: center;
@@ -47,9 +50,9 @@ main {
 
 
 .column {
-	grid-columns-strat: 1;
-	grid-columns-end: 4;
-	grid-row: 2;
+	grid-columns-start: 1;
+	grid-columns-end: 6;
+	grid-rows: 2;
 	
 	display:grid;
 	grid-template-columns: 1fr 1fr 1fr;
