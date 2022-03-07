@@ -47,7 +47,10 @@ main {
 
 
 .column {
-	grid-column: 1, 4;
+	grid-columns-strat: 1;
+	grid-columns-end: 4;
+	grid-row: 2;
+	
 	display:grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	
