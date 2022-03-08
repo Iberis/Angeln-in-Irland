@@ -24,9 +24,15 @@ main {
 	border: 1px solid cyan;
 	border-radius: 2em;
 	padding: 2em;
-	font-size: 30px;
+	
+	font-size: clamp(.625em, 1vw + .325em, 10em);
+	text-align : center-block;
+	text-justify: center;
+}
+	
 	align-self: center;
 	place-content: center;
+	
 	background: white;
 	opacity: 100%
 }
@@ -44,14 +50,17 @@ main {
 	grid-column-start: 1;
 	grid-column-end: 4;
 	grid-row: 1;
+	
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: repeat(3, 1fr);
+	
 	background: 
 		url("images/Fluss.png");
 	background-size: cover;
 	background-height: auto;
 	backgound-width: 100vw;
+	
 	place-items: center;
 }
 
@@ -59,10 +68,15 @@ main {
 	grid-column-start: 1;
 	grid-column-end: 5;
 	grid-row: 1;
+	
 	background: none;
 	opacity: 100%;
 	color: white;
-	font-size: 5em;
+	
+	font-size: clamp(.625em * 5, 1vw + .325em * 5, 10em * 5);
+	text-align : center-block;
+	text-justify: center;
+	
 	padding: none;
 	margin: none;
 	text-shadow:  5px 5px blue;
@@ -73,7 +87,10 @@ main {
 	padding: 1em;
 	border-radius: 5em;
 	opacity: 79%;
-	font-size:3em;
+	
+	font-size: clamp(.625em, 1vw + .325em , 10em);
+	text-align : center-block;
+	text-justify: center;
 }
 
 .Gliederung > div > a {
