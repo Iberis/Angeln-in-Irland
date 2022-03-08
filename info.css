@@ -28,7 +28,6 @@ main {
 	font-size: clamp(.625em, 1vw + .325em, 10em);
 	text-align : center-block;
 	text-justify: center;
-}
 	
 	align-self: center;
 	place-content: center;
