@@ -13,9 +13,7 @@ nav {
 /* Text Formating */
 .section {
   display: flex;
-  align-items: center;
-  font-size: clamp(.625em, 1vw + .325em, 10em);
-  padding: 2em;			
+  align-items: center;		
   border: 1px solid cyan;
   border-radius: 2em;
   overflow: hidden;
@@ -27,6 +25,11 @@ nav {
   width: 350px;
   height: auto;
   padding: 30px
+}
+
+.section p {
+  font-size: clamp(.625em, 1vw + .325em, 10em);
+  padding: 2em;	
 }
 
 /*footer position*/
