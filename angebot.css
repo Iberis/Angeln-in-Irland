@@ -32,7 +32,7 @@ main {
 	align-self: center;
 	justify-self: center;
 	
-	font-size: clamp(.625em, 1vw + .325em, 10em);
+	font-size: clamp(.625em, 1vw + .325em, 3em);
 	text-align : center-block;
 	text-justify: center;
 	
@@ -71,7 +71,7 @@ main {
 	padding: 4em 2em;
 	
 	text-align : center-block;
-    font-size: clamp(.625em, 1vw + .325em, 10em);
+    font-size: clamp(.625em, 1vw + .325em, 3em);
 	
 	opacity: 85%;
 }
