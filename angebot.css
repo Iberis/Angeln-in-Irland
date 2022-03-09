@@ -5,6 +5,11 @@ body {
 	display: grid;
 	grid-template-columns: 1fr;
 }
+nav {
+ 	position: sticky;
+	top: 0;
+	Z-index: 1;
+}
 
 main {
 		min-height: 100vh;
@@ -166,4 +171,10 @@ main {
 	
 	height: 2em;
 	padding; 1em;
+}
+
+footer {
+	position: sticky;
+	bottom: 0;
+	Z-index: 1;
 }
