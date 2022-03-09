@@ -29,7 +29,7 @@ nav {
 
 .section p {
   font-size: clamp(.625em, 1vw + .325em, 3em);
-  padding: 0, 2em;	
+  padding: 0 2em;	
 }
 
 /*footer position*/
