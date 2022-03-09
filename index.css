@@ -3,6 +3,13 @@ body {
  background-size: cover;
 }
 
+/*nav bar position*/
+nav {
+ position: sticky;
+	top: 0;
+	Z-index: 1;
+}
+
 /* Text Formating */
 .section {
   display: flex;
@@ -18,4 +25,11 @@ body {
   width: 350px;
   height: auto;
   padding: 30px
+}
+
+/*footer position*/
+footer {
+ position: sticky;
+	bottom: 0;
+	Z-index: 1;
 }
