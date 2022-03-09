@@ -1,3 +1,10 @@
+/*navbar position*/
+nav {
+  position: sticky;
+	top: 0;
+	Z-index: 1;
+}
+
 .rating {
   width: 226px;
   margin-left: 0 auto 1em;
@@ -37,4 +44,11 @@
 
 .comment_rating {
   color: orange;
+}
+
+/*footer position*/
+footer {
+  position: sticky;
+	bottom: 0;
+	Z-index: 1;
 }
