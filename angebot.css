@@ -1,3 +1,9 @@
+.navbar {
+	position: sticky;
+	top: 0;
+	Z-index: 1;
+}
+
 body {
 	background: url("images/Background_Info.png");
 	background-size: cover;
@@ -148,5 +154,11 @@ footer {
 	
 	height: 2em;
 	padding; 1em;
+}
+
+footer {
+	position: sticky;
+	bottom: 0;
+	Z-Index 1;
 }
 
