@@ -8,7 +8,7 @@ nav {
 .rating {
   width: 226px;
   margin-left: 0 auto 1em;
-  font-size: clamp(.625em, 1vw + .325em, 10em);
+  font-size: clamp(.625em, 1vw + .325em, 3em);
   overflow:hidden;
 }
 .rating input {
@@ -40,7 +40,7 @@ nav {
 
 .comment p {
   padding-right: 50%;
-  font-size: clamp(.625em, 1vw + .325em, 10em);	
+  font-size: clamp(.625em, 1vw + .325em, 3em);	
 }
 
 .comment_rating {
