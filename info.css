@@ -31,7 +31,7 @@ main {
 	border-radius: 2em;
 	padding: 2em;
 	
-	font-size: clamp(.625em, 1vw + .325em, 10em);
+	font-size: clamp(.625em, 1vw + .325em, 3em);
 	text-align : center-block;
 	text-justify: center;
 	
