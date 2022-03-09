@@ -14,7 +14,8 @@ nav {
 .section {
   display: flex;
   align-items: center;
-  font-size: clamp(.625em, 1vw + .325em, 10em);	
+  font-size: clamp(.625em, 1vw + .325em, 10em);
+  padding: 2em;			
   border: 1px solid cyan;
   border-radius: 2em;
   overflow: hidden;
