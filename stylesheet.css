@@ -3,6 +3,7 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+  height: min(50px, 5em) 
   overflow: hidden;
   background-color: #333;
 }
