@@ -1,7 +1,7 @@
 .rating {
   width: 226px;
   margin-left: 0 auto 1em;
-  font-size: clamp(.625em, 1vw + .325em, 3em);
+  font-size: 45px;
   overflow:hidden;
 }
 .rating input {
@@ -33,7 +33,6 @@
 
 .comment p {
   padding-right: 50%;
-  font-size: clamp(.625em, 1vw + .325em, 3em);	
 }
 
 .comment_rating {
