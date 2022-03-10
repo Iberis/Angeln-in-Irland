@@ -55,7 +55,7 @@ main {
 	grid-column-start: 1;
 	grid-column-end: 4;
 	grid-row: 1;
-	justify- self: center;
+	justify-self: center;
 	
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
