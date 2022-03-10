@@ -1,4 +1,4 @@
-fetch('46.114.161.16:8000/ratings/')
+fetch('/ratings/')
 .then(response => response.text())
 .then(text => {
     let oldelem = document.querySelector("script#ratings");
