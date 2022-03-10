@@ -93,7 +93,7 @@ main {
 	border-radius: 5em;
 	opacity: 79%;
 	
-	font-size: clamp(.625em, 1vw + .325em , 10em);
+	font-size: clamp(.625em, 1vw + .325em , 3em);
 	text-align : center-block;
 	text-justify: center;
 }
