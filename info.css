@@ -63,7 +63,7 @@ main {
 	
 	background: 
 		url("images/Fluss.png");
-	background-size: cover;
+	background-size: fill;
 	background-height: auto;
 	backgound-width: 100vw;
 	
