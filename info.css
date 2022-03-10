@@ -55,6 +55,7 @@ main {
 	grid-column-start: 1;
 	grid-column-end: 4;
 	grid-row: 1;
+	justify- self: center;
 	
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -78,7 +79,7 @@ main {
 	opacity: 100%;
 	color: white;
 	
-	font-size: clamp(.625em * 5, 1vw + .325em * 5, 10em * 5);
+	font-size: clamp(.625em * 5, 1vw + .325em * 5, 3em * 5);
 	text-align : center-block;
 	text-justify: center;
 	
