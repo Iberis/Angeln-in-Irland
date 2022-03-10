@@ -1,6 +1,7 @@
 body {
 	background: url("images/Background_Info.png");
 	background-size: cover;
+	width: 100vw;
 	display: grid;
 	grid-template-columns: 1fr;
 }
