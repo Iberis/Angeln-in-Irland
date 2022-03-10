@@ -1,7 +1,6 @@
 body {
 	background: url("images/Background_Info.png");
 	background-size: cover;
-	width: 100vw;
 	display: grid;
 	grid-template-columns: 1fr;
 }
@@ -14,31 +13,30 @@ nav {
 
 
 main {
+	min-height: 100vh;
 	justify-self: center;
-	margin: 1em 10em;
+	justify-content: center;
+	margin: 0;
 	padding: 2em;
 	opacity: 85%;
 	
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr; 
+	grid-template-columns: repeat(3, 1fr)); 
 	grid-template-rows: repeat(9, 1fr);
-	grid-gap: 2em;
+	grid-gap: 2em;	
 	
 }
 
 .Thema {
-	opacity: 100%;
-	border: 1px solid cyan;
-	border-radius: 2em;
-	padding: 2em;
-	
-	font-size: clamp(.625em, 1vw + .325em, 3em);
-	text-align : center-block;
-	text-justify: center;
+	font-size: (1em, 1ch + 0.25em, 2em);
+	padding: 4em 1.5em;
 	
 	align-self: center;
+	justify-self: center;
 	place-content: center;
 	
+	border: 1px solid cyan;
+	border-radius: 2em;
 	background: white;
 	opacity: 100%
 }
@@ -47,15 +45,26 @@ main {
 	opacity: 100%;
 	align-self: center;
 	justify-self: center;
-	background: white;
-	overflow: none;
 	
+	background: transparent;
+	overflow: none;	
+	justifiy-content: center;
 }
+
+.Bild > img {
+	max-width: 21.875em;
+	max-height: auto;
+	object-fit: fill;
+	border-radius: 2em;
+	border: 1px solid cyan;
+}
+
 
 .Gliederung{
 	grid-column-start: 1;
 	grid-column-end: 4;
 	grid-row: 1;
+	
 	justify-self: center;
 	
 	display: grid;
@@ -64,11 +73,10 @@ main {
 	
 	background: 
 		url("images/Fluss.png");
-	background-size: fill;
-	background-height: auto;
-	backgound-width: 100vw;
-	
+	background-size: cover;
 	place-items: center;
+	
+	border-radius: 2em;
 }
 
 #header_Gliederung{
@@ -80,13 +88,14 @@ main {
 	opacity: 100%;
 	color: white;
 	
-	font-size: clamp(.625em * 5, 1vw + .325em * 5, 3em * 5);
+	font-size: 1.5em;
 	text-align : center-block;
 	text-justify: center;
 	
 	padding: none;
 	margin: none;
-	text-shadow:  5px 5px blue;
+	
+	text-shadow:  3px 3px blue;
 }
 
 .Gliederung > div {
@@ -95,7 +104,7 @@ main {
 	border-radius: 5em;
 	opacity: 79%;
 	
-	font-size: clamp(.625em, 1vw + .325em , 3em);
+	font-size: 1.25em;
 	text-align : center-block;
 	text-justify: center;
 }
